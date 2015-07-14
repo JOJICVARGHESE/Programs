@@ -5,13 +5,13 @@ import java.awt.image.PixelGrabber;
 public class Compare {
 static void processImage() {
  
-String file1 = "https://presentationpictures.files.wordpress.com/2010/07/green-fresh-plant-growing.jpg";
+String file1 = "";
 
-//delete and paste new image link image link to be compared inside the inverted comma
+//paste new image link to be compared inside the inverted comma
 
-String file2 = "https://presentationpictures.files.wordpress.com/2010/07/green-fresh-plant-growing.jpg";
+String file2 = "";
 
-//delete and paste new  image link to be compare inside the inverted comma 
+//paste new  image link to be compare inside the inverted comma 
 
 Image image1 = Toolkit.getDefaultToolkit().getImage(file1);
 Image image2 = Toolkit.getDefaultToolkit().getImage(file2);
